@@ -31,10 +31,7 @@ body {
 }
 
 header {
-  /* padding-left: 40px; */
-  /* padding-right: 60px; */
   margin: 0px;
-  /* width: 1460px; */
   background-image: url(./images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,12 +56,14 @@ header {
   position: relative;
   background: rgb(255, 255, 255);
 }
+
 .superContainer {
   display: flex;
   justify-content: center;
   padding-left: 40px;
   padding-right: 60px;
 }
+
 .container {
   width: 1460px;
   margin: 0 auto;
@@ -79,7 +78,6 @@ header {
   border-radius: 50%;
   border: 10px solid #ab0427;
   left: 50px;
-  /* top: -70px; */
   top: 50%;
   transform: translateY(-50%);
 }
@@ -131,13 +129,11 @@ li a {
   left: 0%;
   right: 90.46%;
   top: calc(50% - 18px / 2);
-
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
-
   color: #002868;
 }
 
@@ -145,7 +141,6 @@ section {
   display: flex;
   justify-content: center;
   padding-top: 80px;
-  /* margin-left: 37px; */
 }
 
 .centered_image {
@@ -164,7 +159,6 @@ section {
   position: relative;
   left: -40px;
   width: 100vw;
-  /* width: 1078px; */
   margin-right: 0px;
 }
 
@@ -218,6 +212,7 @@ section {
   padding-left: 20px;
   margin-left: 1px;
 }
+
 .farenheit {
   font-family: "ProximaNovaReg";
   font-weight: 400;
@@ -233,7 +228,6 @@ section {
   justify-content: center;
   align-items: center;
   padding-top: 9px;
-
   text-align: center;
   height: 24px;
   right: 0px;
@@ -260,7 +254,6 @@ section {
   font-weight: 300;
   color: white;
   font-size: 14px;
-
   top: 0px;
 }
 
@@ -286,8 +279,6 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-
-  /* height: 24px; */
 }
 
 .arrow {
@@ -302,12 +293,6 @@ section {
   width: 14px;
   height: 14px;
 }
-
-/* .federation {
-  left: 286px;
-  top: 150px;
-  position: absolute;
-} */
 
 .federationContainer {
   display: grid;
@@ -360,8 +345,6 @@ section {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 2px;
 
@@ -804,7 +787,6 @@ section {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-
   padding-bottom: 20px;
   text-align: center;
   letter-spacing: 2px;
@@ -821,8 +803,6 @@ section {
   position: relative;
   border: 1px solid white;
   background-color: rgba(143, 188, 143, 0);
-}
-.nameSection {
 }
 
 .name {
@@ -921,7 +901,6 @@ section {
   border: 0px;
   outline: 0.5px;
   outline-color: rgb(0, 153, 255);
-  /* outline: none; */
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
@@ -941,7 +920,6 @@ section {
   left: 10px;
   position: absolute;
   top: 117px;
-  /* top: calc(50% - 16px / 2 + 9.5px); */
   margin-right: 5px;
 }
 /*---------------------------------------------------EMAIL-------------------------------------------*/
@@ -991,7 +969,6 @@ section {
   border: 0px;
   outline: 0.5px;
   outline-color: rgb(0, 153, 255);
-  /* outline: none; */
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
@@ -1011,8 +988,6 @@ section {
   left: 9px;
   margin-top: 14px;
   position: absolute;
-
-  /* top: calc(50% - 16px / 2 + 9.5px); */
   margin-right: 0px;
 }
 
@@ -1063,7 +1038,6 @@ section {
   border: 0px;
   outline: 0.5px;
   outline-color: rgb(0, 153, 255);
-  /* outline: none; */
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
@@ -1257,130 +1231,6 @@ section {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-
-/* .messageICON {
-  width: 16px;
-  height: 16px;
-  background-image: url(./images/folder_icon.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  left: 9px;
-  margin-top: 14px;
-  position: absolute;
-
-  /* top: calc(50% - 16px / 2 + 9.5px); */
-
-/* .contactForm {
-  display: grid;
-  width: 740px;
-  height: 457px;
-  background-color: #f2f2f2;
-  top: 62px;
-  position: relative;
-  margin: 0 auto;
-  border-bottom: 1px solid rgb(236, 12, 12);
-}
-
-.contactForm222 {
-  display: grid;
-  width: 200px;
-  height: 50px;
-
-  top: 0px;
-  position: relative;
-
-  background-color: indigo;
-  margin-top: 21px;
-}
-
-.notifications {
-  display: grid;
-
-  margin: 0 auto;
-  width: 740px;
-
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  letter-spacing: 2px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgb(202, 202, 202);
-  color: #002868;
-}
-
-.Form {
-  width: 619px;
-  height: 378px;
-  border: 1px solid rgba(182, 182, 182, 0);
-  display: grid;
-  margin-top: 16px;
-  margin: 0 auto;
-}
-.name {
-  display: grid;
-  width: 619px;
-  height: 65px;
-  background-color: rgba(255, 255, 255, 0);
-  margin: 0px;
-  margin-top: 16px;
-  padding: 0px;
-}
-
-.name1 {
-  margin-top: 15px;
-}
-.onomat {
-  margin-bottom: 4px;
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: -0.15px;
-  color: #333333;
-}
-.onomat_field {
-  height: 46px;
-  border: 1px solid #b6b6b6;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin: 0px;
-  padding: 0;
-}
-.onomat_field2 {
-  height: 119px;
-  width: 619px;
-  border: 1px solid #b6b6b6;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-.phobe_icon {
-  position: relative;
-  width: 16px;
-  height: 16px;
-  left: 10px;
-  top: 15px;
-}
-.folder_icon {
-  width: 16px;
-  height: 16px;
-  position: relative;
-  width: 16px;
-  height: 16px;
-  left: 9px;
-
-  top: 14px;
-}
-
-.sendButton {
-  width: 200px;
-  height: 50px;
-  left: 799px;
-  background-color: indianred;
-} */
 
 .content {
   position: absolute;
