@@ -1138,7 +1138,7 @@ section {
 .footerOne {
   height: 22px;
   margin-top: 53px;
-  background-color: rgb(189, 20, 20);
+  background-color: rgb(255, 255, 255);
 }
 
 .footerTwo {
@@ -1155,7 +1155,7 @@ section {
   margin: 0 auto;
   width: 1460px;
   height: 420px;
-  background-color: rgb(90, 133, 116);
+  background-color: #002868;
 }
 
 .top_arrow {
@@ -1192,6 +1192,72 @@ section {
   position: absolute;
   margin-top: 280px;
 }
+
+.icon1 {
+  padding-right: 30px;
+}
+
+.iconLast {
+  padding-right: 00px;
+}
+
+.footerNav {
+  width: 1101px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(189, 33, 33, 0);
+  top: 3159px;
+  padding: 0px 5px 0px 0px;
+}
+.footUl {
+  display: flex;
+  justify-content: start;
+  padding: 0px;
+
+  margin: 0px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.ali {
+  font-family: "ssproReg", serif;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 13.5px;
+  line-height: 18px;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 6px;
+  letter-spacing: 0.6px;
+
+  color: #ffffff;
+}
+
+.ali:hover {
+  color: #bf0a30;
+}
+
+.copyright {
+  position: absolute;
+  top: 3201px;
+
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
 /* .messageICON {
   width: 16px;
   height: 16px;
