@@ -96,6 +96,7 @@ img {
   align-items: center;
   text-align: center;
   height: 60px;
+  z-index: 1;
 }
 
 li a {
@@ -107,9 +108,8 @@ li a {
   line-height: 25px;
   font-size: 14px;
   line-height: 30px;
-  /* padding-right: -26px; */
-
-  /* color: #002868; */
+  /* padding-bottom: 30px; */
+  z-index: 11;
 }
 
 .mail_iconI_main_menu {
@@ -155,6 +155,7 @@ section {
   border-radius: 50%;
   border: 6px solid white;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  z-index: 4;
 }
 
 .mainTopBar {
@@ -342,6 +343,7 @@ section {
   background-color: rgba(0, 128, 128, 0);
   top: 43px;
   left: 38px;
+  z-index: 5;
 }
 
 .greekIcon {
@@ -1382,3 +1384,32 @@ section {
   left: 799px;
   background-color: indianred;
 } */
+
+.content {
+  position: absolute;
+  display: none;
+  top: 70px;
+  left: 271px;
+  color: white;
+  width: 275px;
+  height: 360px;
+  background-color: rgb(0, 153, 255);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  z-index: 6;
+}
+
+.menuTextMain:hover .content {
+  display: block;
+  z-index: 7;
+}
+
+.keno {
+  width: 130px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.884);
+  top: -40px;
+  left: -80px;
+  position: relative;
+  z-index: 1;
+}
