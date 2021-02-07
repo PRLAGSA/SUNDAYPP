@@ -491,7 +491,7 @@ section {
 
 .textContainer2 {
   margin-left: 30px;
-  width: 464px;
+  width: 468px;
 }
 
 .textWRAPPER {
@@ -503,9 +503,9 @@ section {
 }
 
 .contentText1 {
-  top: 61.5px;
+  top: 62px;
   position: absolute;
-  width: 464px;
+  width: 460px;
   font-size: 16px;
   font-family: "ssproReg";
   margin-left: 4px;
@@ -578,7 +578,7 @@ section {
   width: 479px;
   font-size: 16px;
   font-family: "ssproReg";
-  margin-left: 0px;
+  margin-left: 1px;
   line-height: 25px;
   letter-spacing: 0.1px;
 }
@@ -589,7 +589,7 @@ section {
   width: 470px;
   font-size: 16px;
   font-family: "ssproReg";
-  margin-left: 0px;
+  margin-left: 1px;
   line-height: 25px;
   letter-spacing: 0.1px;
 }
@@ -611,7 +611,7 @@ section {
   width: 464px;
   font-size: 16px;
   font-family: "ssproReg";
-  margin-left: 0px;
+  margin-left: 1px;
 }
 
 .rightarrow {
@@ -1165,6 +1165,7 @@ section {
   background-color: rgba(0, 128, 128, 0);
   width: 44px;
   height: 44px;
+  cursor: pointer;
 }
 
 .footerLogo {
