@@ -369,7 +369,7 @@ section {
 }
 
 .text {
-  height: 130px;
+  width: 385px;
   position: absolute;
   font-family: "ssproReg";
   font-style: normal;
@@ -382,6 +382,7 @@ section {
   top: 40%;
   bottom: 22.86%;
   font-size: 16px;
+  text-align: center;
 }
 
 .button {
@@ -404,6 +405,7 @@ section {
   text-align: center;
   padding: 0px;
   margin: 0px;
+  cursor: pointer;
 }
 
 .perisotera {
